@@ -1,0 +1,21 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+:root{
+    --cor-de-fundo:#76cf82;
+    --branco:#0c0a0ef3;
+    --amarelo:#0ab304;
+    --roxo:#0caa41;
+    --fonte-principal: "Lora";
+    --fonte-secundaria: "Barlow";
+    
+    
+
+}
+
+body{
+    background-color:var(--cor-de-fundo);
+font-family: var(--fonte-principal);
+font-size: 20px;
+font-weight: 400;
+}
